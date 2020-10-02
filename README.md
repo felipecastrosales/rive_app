@@ -1,16 +1,59 @@
-# flare_flutterapp
+ <p align="center">
+      <img src="https://user-images.githubusercontent.com/59374587/94874329-1efc8280-0428-11eb-86b1-356c089f3dea.png" width="80px" alt="Rive Logo"/>
+</p>
 
-A new Flutter application.
+<h1 align="center">Flare Test</h1>
 
-## Getting Started
+<h2 align="center">About 📖</h2>
+   
+<p align="center">   
+   A simple test developed with Flutter and <a href="https://rive.app/explore/popular/trending/all">Flare</a>. 💙<br>
+   That was a simple with Flare, today Rive, together with Flutter, a simple test, and it made me learn more.
+</p>
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+<h2 align="center">Preview 📱</h2><br>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+   <p align="center">
+      <img src="demo/Flare_Demo.gif" alt="Flare Test">
+   </p>
+   
+   > * See also in [`demo`](https://github.com/felipecastrosales/Flare-Test/tree/master/demo) folder. 🧐📂
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+<h2 align="center">How to Use 🤔</h2>
+
+   ```   
+   - Clone this repository:
+   $ git clone https://github.com/felipecastrosales/Flare-Test Flare-Test
+
+   - Enter in directory:
+   $ cd Flare-Test
+
+   - For install dependencies:
+   $ flutter packages get
+
+   - Run the app: 
+   $ flutter run
+   ```
+
+---
+
+<h2 align="center">License 📝</h2>
+
+   This repository is under MIT license. You can see the [LICENSE](https://github.com/felipecastrosales/Flare-Test/blob/master/LICENSE) file for more details. 😉
+
+   ---
+
+   >This project was developed with ❤️ by **[@Felipe Sales](https://www.linkedin.com/in/felipecastrosales/)**, with the instructor **[Daniel Ciolfi](https://linkedin.com/in/danielciolfi)**, in the course  **["Creating Android and iOS Apps with Flutter - Create 16 Apps"](https://www.udemy.com/course/curso-completo-flutter-app-android-ios)** on **[Udemy](https://www.udemy.com/)**.<br>
+   If it helped you, give ⭐, contribute, it will help me too 😉
+
+---
+
+   <div align="center">
+
+   [![Linkedin Badge](https://img.shields.io/badge/-Felipe%20Sales-292929?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/felipecastrosales/)](https://www.linkedin.com/in/felipecastrosales/)
+
+   </div>
