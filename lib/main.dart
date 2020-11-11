@@ -59,7 +59,7 @@ class Home extends StatelessWidget {
             Container(
               height: 120,
               width: 120,
-              child: FlareActor('assets/animheart.flr', animation: 'pulse'),
+              child: FlareActor('assets/rotation.flr2d', animation: 'pulse'),
             ),
           ],
         ),
