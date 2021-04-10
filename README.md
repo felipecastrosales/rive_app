@@ -2,7 +2,7 @@
       <img src="https://user-images.githubusercontent.com/59374587/94874329-1efc8280-0428-11eb-86b1-356c089f3dea.png" width="80px" alt="Rive Logo"/>
 </p>
 
-<h1 align="center">Flare Test</h1>
+<h1 align="center">Flare - Rive</h1>
 
 <h2 align="center">About 📖</h2>
    
@@ -14,9 +14,9 @@
 ---
 
 <h2 align="center">Preview 📱</h2><br>
-
+   
    <p align="center">
-      <img src="demo/Flare_Demo.gif" alt="Flare Test">
+    <img src="demo/Flare_Demo.gif" width="400" alt="conversor">
    </p>
    
    > * See also in [`demo`](https://github.com/felipecastrosales/Flare-Test/tree/master/demo) folder. 🧐📂
@@ -47,10 +47,12 @@
 
    ---
 
-   >This project was developed with ❤️ by **[@Felipe Sales](https://www.linkedin.com/in/felipecastrosales/)**, with the instructor **[Daniel Ciolfi](https://linkedin.com/in/danielciolfi)**, in the course  **["Creating Android and iOS Apps with Flutter - Create 16 Apps"](https://www.udemy.com/course/curso-completo-flutter-app-android-ios)** on **[Udemy](https://www.udemy.com/)**.<br>
+   >This project was developed with ❤️ by **[@Felipe Sales](https://www.linkedin.com/in/felipecastrosales/)**, with the instructor **[Daniel Ciolfi](https://linkedin.com/in/danielciolfi)**, in the course  **["Criação de Apps Android e iOS com Flutter 2021-Crie 14 Apps"](https://www.udemy.com/course/curso-completo-flutter-app-android-ios/?referralCode=1355952A966260D40D18)** on **[Udemy](https://www.udemy.com/)**.<br>
    If it helped you, give ⭐, contribute, it will help me too 😉
 
 ---
+
+https://www.udemy.com/course/curso-completo-flutter-app-android-ios/learn/?referralCode=1355952A966260D40D18
 
    <div align="center">
 
