@@ -1,4 +1,4 @@
-package br.com.felipecastrosales.flare_flutterapp;
+package br.com.felipecastrosales.rive_app;
 
 import io.flutter.embedding.android.FlutterActivity;
 
