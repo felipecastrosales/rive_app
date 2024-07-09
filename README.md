@@ -2,24 +2,20 @@
       <img src="https://user-images.githubusercontent.com/59374587/94874329-1efc8280-0428-11eb-86b1-356c089f3dea.png" width="80px" alt="Rive Logo"/>
 </p>
 
-<h1 align="center">Flare - Rive</h1>
+<h1 align="center">Flutter Rive</h1>
 
 <h2 align="center">About 📖</h2>
    
 <p align="center">   
-   A simple test developed with Flutter and <a href="https://rive.app/explore/popular/trending/all">Flare</a>. 💙<br>
-   That was a simple with Flare, today Rive, together with Flutter, a simple test, and it made me learn more.
+   A simple test developed with Flutter and <a href="https://rive.app/explore/popular/trending/all">Rive</a>. 💙<br>
+   That was a simple with Rive, together with Flutter, a simple test, and it made me learn more.
 </p>
 
 ---
 
 <h2 align="center">Preview 📱</h2><br>
-   
-   <p align="center">
-    <img src="demo/Flare_Demo.gif" width="400" alt="conversor">
-   </p>
-   
-   > * See also in [`demo`](https://github.com/felipecastrosales/Flare-Test/tree/master/demo) folder. 🧐📂
+
+/// TODO: ADD
 
 ---
 
@@ -27,10 +23,13 @@
 
    ```   
    - Clone this repository:
-   $ git clone https://github.com/felipecastrosales/Flare-Test Flare-Test
+   $ git clone https://github.com/felipecastrosales/rive_app
 
    - Enter in directory:
-   $ cd Flare-Test
+   $ cd rive_app
+
+   - VS Code:
+   $ code .
 
    - For install dependencies:
    $ flutter packages get
@@ -43,7 +42,7 @@
 
 <h2 align="center">License 📝</h2>
 
-   This repository is under MIT license. You can see the [LICENSE](https://github.com/felipecastrosales/Flare-Test/blob/master/LICENSE) file for more details. 😉
+   This repository is under MIT license. You can see the [LICENSE](https://github.com/felipecastrosales/rive_app/blob/master/LICENSE) file for more details. 😉
 
    ---
 

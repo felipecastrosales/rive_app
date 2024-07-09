@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flare_flutter/flare_actor.dart';
+import 'package:rive/rive.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: Splash(),
       debugShowCheckedModeBanner: false,
     );
@@ -16,50 +18,62 @@ class MyApp extends StatelessWidget {
 }
 
 class Splash extends StatefulWidget {
+  const Splash({super.key});
+
   @override
-  _SplashState createState() => _SplashState();
+  State<StatefulWidget> createState() => _SplashState();
 }
 
 class _SplashState extends State<Splash> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        body: Center(
-      child: Container(
-        width: 100,
-        height: 100,
-        child: FlareActor('assets/newgears.flr', animation: 'spin'),
+    return const Scaffold(
+      body: Center(
+        child: SizedBox(
+          width: 100,
+          height: 100,
+          child: RiveAnimation.asset('assets/gears.riv'),
+        ),
       ),
-    ));
+    );
   }
 
   @override
   void initState() {
     super.initState();
-    Future.delayed(Duration(seconds: 5)).then((_) => 
-    Navigator.of(context)
-        .pushReplacement(MaterialPageRoute(builder: (context) => Home())));
+    Future.delayed(const Duration(seconds: 5)).then(
+      (_) => Navigator.of(context).pushReplacement(
+        MaterialPageRoute(
+          builder: (context) => const Home(),
+        ),
+      ),
+    );
   }
 }
 
 class Home extends StatelessWidget {
+  const Home({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Text(
-              'Flutter + Flare',
+              'Flutter + Rive',
               style: TextStyle(fontSize: 38),
               textAlign: TextAlign.center,
             ),
-            Container(
+            SizedBox(
               height: 120,
               width: 120,
-              child: FlareActor('assets/animheart.flr', animation: 'pulse'),
+              child: RiveAnimation.asset(
+                'assets/soarus.riv',
+                animations: ['idle'],
+              ),
             ),
           ],
         ),
