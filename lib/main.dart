@@ -56,23 +56,32 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Flutter + Rive'),
+        actions: [
+          IconButton(
+            onPressed: () {
+              Navigator.of(context).pushReplacement(
+                MaterialPageRoute(
+                  builder: (context) => const Splash(),
+                ),
+              );
+            },
+            icon: const Icon(Icons.refresh),
+          ),
+        ],
+      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Text(
-              'Flutter + Rive',
-              style: TextStyle(fontSize: 38),
-              textAlign: TextAlign.center,
-            ),
             SizedBox(
-              height: 120,
-              width: 120,
-              child: RiveAnimation.asset(
-                'assets/soarus.riv',
-                animations: ['idle'],
+              height: MediaQuery.sizeOf(context).width,
+              width: MediaQuery.sizeOf(context).width,
+              child: const RiveAnimation.asset(
+                'assets/cute_robot.riv',
               ),
             ),
           ],
