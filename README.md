@@ -5,7 +5,7 @@
 <h1 align="center">Flutter Rive</h1>
 
 <h2 align="center">About 📖</h2>
-   
+
 <p align="center">   
    A simple test developed with Flutter and <a href="https://rive.app/explore/popular/trending/all">Rive</a>. 💙<br>
    That was a simple with Rive, together with Flutter, a simple test, and it made me learn more.
@@ -15,7 +15,7 @@
 
 <h2 align="center">Preview 📱</h2><br>
 
-/// TODO: ADD
+https://github.com/user-attachments/assets/697d201a-5444-4396-b328-4f949ca0adac
 
 ---
 
